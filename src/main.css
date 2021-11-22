@@ -1,0 +1,145 @@
+.input_label {
+	color: #dddddd;
+	font-size: 15px;
+	text-align: center
+
+}
+
+.loginbtn {
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: 'Poppins';
+	color: #27282a;
+	border-radius: 5px;
+	background-color: #dddddd;
+	transition-duration: 0.5s;
+	display: none;
+
+}
+
+.loginbtn:hover {
+	color: #dddddd;
+	background-color: #27282a;
+}
+
+.registerbtn {
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: 'Poppins';
+	color: #27282a;
+	border-radius: 5px;
+	background-color: #dddddd;
+	transition-duration: 0.5s;
+	display: none;
+
+}
+
+.registerbtn:hover {
+	color: #dddddd;
+	background-color: #27282a;
+}
+
+.logoutbtn {
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: 'Poppins';
+	color: #27282a;
+	border-radius: 5px;
+	background-color: #dddddd;
+	transition-duration: 0.5s;
+	display: none;
+
+}
+
+.logoutbtn:hover {
+	color: #dddddd;
+	background-color: #27282a;
+
+}
+
+.username_input {
+	margin: 0 auto;
+	display: none;
+
+}
+
+.password_input {
+	margin: 0 auto;
+	display: none;
+
+}
+
+.one {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.password_label {
+	cursor: pointer;
+	display: none;
+}
+
+.username_label {
+	cursor: pointer;
+	display: none;
+
+}
+
+.new_username_label {
+	cursor: pointer;
+	display: none;
+
+}
+.pointer {
+	cursor: pointer;
+	display: flex;
+	background: #f6f8fa;
+	border-radius: 25px;
+	padding: 30px;
+	width: 250px;
+	height: 140px;
+	margin: auto;
+
+}
+
+.show_game_box {
+	display: flex;
+	background: #f6f8fa;
+	border-radius: 25px;
+	padding: 30px;
+	width: 250px;
+	height: 140px;
+	margin: auto;
+
+}
+.scrollerr {
+	width: 250px;
+	height: 140px;
+	overflow-y: scroll;
+}
+.boxx {
+	display: flex;
+	background: #f6f8fa;
+	border-radius: 25px;
+	padding: 30px;
+	width: 250px;
+	height: 140px;
+	margin: auto;
+}
+.profile {
+	display: flex;
+	background: #f6f8fa;
+	border-radius: 25px;
+	padding: 30px;
+	width: 250px;
+	height: 140px;
+	margin: auto;
+}
+.name {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat';
+}
+#lobby{
+	display: none;
+}

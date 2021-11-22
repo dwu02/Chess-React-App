@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <title>
+         Chess
+      </title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="/react/Board/board.css">
+      <link rel="stylesheet" type="text/css" href="/react/Box/box.css">
+      <link rel="stylesheet" type="text/css" href="/react/Square/square.css">
+      <link rel="stylesheet" type="text/css" href="App.css">
+
+
+
+      <script  src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+      <script src="https://unpkg.com/react@^17.0.2/umd/react.production.min.js"></script>
+      <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+      <script  src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>  
+      <script src="/socket.io/socket.io.js"></script>
+
+      <script> let exports = {};
+      
+      let match_color = "white"
+      let opponent = "";
+      </script>
+      <script type = "text/babel" src="react/test.js"></script> 
+      <script type = "text/babel" src="react/Square/square.js"></script> 
+
+      <script type = "text/babel" src="react/Board/board.js"></script> 
+      <script type = "text/babel" src="react/Box/box.js"></script> 
+      <script type = "text/babel" src="react/Board/botboard.js"></script> 
+
+      <script type = "text/babel" src="react/App.js"></script> 
+      <script type = "text/babel" src="react/BotApp.js"></script> 
+
+      <script>
+                  const socket = io.connect();
+               let username = "";
+               let current_room = "";
+               function addslashes(string){
+             return string.replace(/\\/g, '\\\\').
+             replace(/\u0008/g, '\\b').
+             replace(/\t/g, '\\t').
+             replace(/\n/g, '\\n').
+             replace(/\f/g, '\\f').
+             replace(/\r/g, '\\r').
+             replace(/'/g, '\\\'').
+             replace(/"/g, '\\"');
+         }  
+         
+      </script>
+      <script type="text/babel" src="login.js"> </script>
+      <script type="text/babel" src="logout.js"> </script>
+      <script type="text/babel" src="create_match.js"> </script>
+      <script type="text/babel" src="match.js"> </script>
+      <script type="text/babel" src="match_ai.js"> </script>
+
+   </head>
+   <body>
+      <div class = "pointer" id = "pointer">
+         <!--
+         //----------------------------------------------------------------------
+         // A stationary menu that allows guests to login or register
+         //----------------------------------------------------------------------
+         !-->
+                  <ul>
+                     <li><a id="show_login">Login</a></li>
+                     <li><a id="show_register">Register</a></li>
+                  </ul>
+         </div>
+ 
+      <div class="input_label" id="input_label">
+         <label class="username_label" id="username_label" for = "username">Username or ID</label>
+            <label class="new_username_label" id="new_username_label" for = "username">New Username or ID</label>
+            <input class="username_input" id ="username" type="text" name="username" size="25"/>
+            <span class="one-twofive"></span>  
+            <label class="password_label" id="password_label" for = "password">Password (Case-Sensitive)</label>
+            <input class="password_input" id ="password" type="password" name="password" size="25"/>
+            <span class="one-twofive"></span>  
+            <input class="loginbtn" type = "submit" id = "login" value = "Sign In"/>
+            <input class="registerbtn" type = "submit" id = "register" value = "Register"/>
+            <span class="one"></span>  
+      </div>
+      <div class = "lobby" id = "lobby">
+         <div class="boxx" id = "box">
+            <div class="name">
+               <label id = "room_label" for = "room_create">Online Room Name</label>
+               <input onfocus="this.value=''" size="20" type = "text" id = "room_create"/>
+               <br>
+               <br>
+               <input class="button" type = "submit" id = "create" value="create match"/>
+               <input class="button" type = "submit" id = "bot" value="play bot"/>
+               <input class="logoutbtn" type = "submit" id = "logout" value = "Sign Out"/>
+
+               <br>
+               <br>
+            </div>
+         </div>
+         <div class = "show_game_box">
+            <div class = "scrollerr">
+               <div class = "game_list"></div>
+            </div>
+         </div>
+         <div class = "profile">
+            <div class = "scrollerr">
+            
+            </div>
+         </div>
+      </div>
+         <div class = "chess" id = chess>
+
+         </div>
+      
+      
+      <br>
+   </body>
+</html>

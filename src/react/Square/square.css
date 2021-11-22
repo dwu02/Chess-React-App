@@ -1,0 +1,22 @@
+.square {
+    width: 75px;
+    height: 75px;
+}
+
+.square .piece {
+    width: 75px;
+    height: 75px;
+    background-size: 75px;
+}
+
+.white {
+    background-color: #fbe9a7;
+}
+
+.green {
+    background-color: #145f4b;
+}
+
+.selected{
+    background-color: #baca2b;
+}

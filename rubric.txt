@@ -1,0 +1,22 @@
+Languages/Frameworks Used (10 Points)
+(10) Learned/Implemented React Js
+Node and mySQL - Updated (Changed PHP to Node) 4/22/21 Approved by Taylor Howard.
+
+Best Practices (5 points)
+(3) Code well-formatted
+(2) Passes HTML, CSS Validators
+
+Functionality (65 points)
+(10) users can register, login, and logout
+(5) users can view their own profile (previous wins, losses, etc.)
+(15) All chess rules are implemented correctly
+(15) Users can create a match with another user
+(10) Users can create a match against a bot
+(10) Database will store Users and Games with all the necessary columns to implement the above mentioned
+
+Creative Portion (20 points)
+(5) There will be rankings for each person, they will update each match
+(5) Users can view their profiles, which will display all of their wins and losses
+(10) There are different chess game modes
+
+Approved by Mark Sigel

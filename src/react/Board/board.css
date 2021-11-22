@@ -1,0 +1,7 @@
+#board {
+    display:flex;
+    flex-wrap:wrap;
+    width: 600px;
+    height: 600px;
+    background-color: #145f4b;
+}

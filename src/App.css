@@ -1,0 +1,9 @@
+#main_wrapper {
+  background-color: #4c4b47;
+}
+
+.board_wrapper {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}

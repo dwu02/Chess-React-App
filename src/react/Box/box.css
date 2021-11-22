@@ -1,0 +1,66 @@
+.box {
+    width: 250px;
+    height: 600px;
+    position: fixed;
+    right: 80px;
+    top: 62.5px;
+    border-radius: 25px;
+    float: right;
+    background: #3a3936;
+  }
+
+.scroller {
+    width: 250px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.history_text {
+  color: white;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 15px;
+    position: absolute;
+    top: 92.5%;
+    transform: translateY(-50%);
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: grey;
+  }
+
+  .first_divider{
+    height: 2px;
+    border-width:0;
+    top: 20px;
+    background-color:white;
+  }
+
+  .second_divider{
+    height: 2px;
+    border-width:0;
+    background-color:white;
+  }
+
+  .opponent_title{
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+img{
+  border-radius: 8px;
+  left: 15px;
+  position: absolute;
+}

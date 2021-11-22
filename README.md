@@ -1,7 +1,5 @@
 # Chess-React-App
 
-Graded by Joel Hsieh (May 1), 100/100
-
 # CSE330
 
 ## Student Group Information

@@ -21,6 +21,6 @@ ID: 487275
 Username: dwu02
 
 
-### Link
+### Link (Instance is terminated, link will not function)
 
 http://ec2-18-218-109-246.us-east-2.compute.amazonaws.com:3456/client/main.html
